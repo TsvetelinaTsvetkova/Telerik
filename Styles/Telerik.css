@@ -1,0 +1,533 @@
+﻿body, html, header, div, p, h2, input, nav, ul, li, a, main, section, aside, h1{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;   
+}
+
+body{
+    background:url(/Images/body-background.png);
+    width:100%;
+}
+
+#wrapper{
+    background:#fffffd; 
+    border:1px solid #C6C6C6;
+    margin:0 auto;
+    width:960px; 
+}
+
+header{
+    border-bottom:1px solid #EFEFEF;
+    font-size:34px;
+    padding:50px 30px 80px 30px;  
+}
+
+header p {
+    display:inline-block;
+    font-weight:bold;
+    font:Agency FB
+}
+
+header p:first-of-type{
+    color:#656464;
+}
+
+header p:last-of-type{
+    color:#549EB9;
+}
+
+header #logo{
+    float:left;
+}
+
+header input{
+    background:url(/Images/search-image.png)no-repeat 98%;
+    border:none;
+    border:1px solid #EFEFEF;
+    float:right;
+    margin-right:30px;
+    padding:5px;
+    width:200px;
+}
+
+#top-navigation{
+    border-bottom:1px solid #EFEFEF;
+    border-top:3px solid #F7F7F7;
+}
+
+#menu{  
+    float:left;
+    width:85%;
+}
+
+#menu > ul > li{
+    border-top:0;
+    border:1px solid white;
+    border-left:1px solid #EFEFEF;
+    height:46px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#menu > ul > li {
+    border-bottom: 1px solid #EFEFEF;
+    
+    border-right: 1px dotted #DCDCDC;
+    float: left;
+    list-style: none;
+    padding-bottom: 20px;
+    padding: 12px;
+}
+
+#menu > ul > li > a{
+    color:#C6C6C6;
+    font-size:12px;
+    margin-top:3px;
+    text-transform:uppercase;
+    text-decoration:none; 
+}
+
+#menu > ul > li:first-of-type a{
+    color:#858484;
+}
+
+#menu ul li:hover  {
+    border-top:0;
+    background:url(/Images/home-border.png)no-repeat top;
+    background-position:0px 0px;
+    background-size:100% 7px;
+    padding-top:15px;
+}
+
+#contact {
+    float: right;
+    padding:13px 30px 15px 0;
+    width: 14.5%;    
+    height:46px;
+    text-align:right;
+}
+
+#contact li{
+    background:#ebebeb;
+    border-radius:10px;
+    display:inline-block;
+    list-style:none;
+    text-align:center;
+    width:25px;
+}
+    
+.content{
+    display:none;  
+    margin-top:14px;
+    position:absolute;
+}
+
+.content li{
+    background:#549EB9;
+    list-style-type:none;
+    padding:11px;
+    padding-right:80px;
+    padding-left:30px;
+    position:relative;
+}
+
+.content li a{
+    color:#ffffff;
+    font-size:12px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+ .content li:hover{
+    background:#4B93AD;
+ }
+
+li:hover .content {
+    background:#4B93AD;
+    display:block;
+}
+
+.content li:last-of-type{
+    border-bottom:1px solid #4A8BA3;
+}
+
+#bottom-navigation{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+#bottom-navigation ul li a{
+    color:#E5E5E5;
+    font-family:Georgia;
+    font-style:italic;
+    float:left;
+}
+
+#bottom-navigation ul li{
+    list-style:none;
+    margin-right:10px;
+    padding-left:30px;
+}
+
+#bottom-navigation ul li a{
+    font-size:13px;
+    padding-right:10px;
+    text-decoration:none;
+}
+
+#bottom-navigation ul li:last-of-type a{
+    color:#656464;
+}
+
+main{
+    border-bottom:1px solid #EFEFEF;
+}
+
+main section{
+    border-right:1px solid #EFEFEF;
+    float:left;
+    width:65%;
+}
+
+main aside{
+    float:right;
+    width:30%; 
+}
+
+main section h1{
+    color:#656464;
+    display:inline-block;
+    font-size:35px;
+    font-family:'Agency FB',Arial;
+    font-weight:normal;  
+}
+
+main section .comments{
+    color:#C6C6C6;
+    font-family:Georgia;
+    font-style:italic;
+    font-size:13px;
+}
+
+.figure{
+    border:1px solid #EDEDED;
+    margin:20px 0 20px 70px;
+    text-align:center;
+    width:80%;
+}
+
+main section img{
+    background-image:url(/Images/article-image.png);
+    border:5px solid #ffffff;
+    width:97%;
+}
+
+section .date-month{
+    background:#549EB9;
+    border-radius:30px;
+    float:left;
+    height:50px;
+    margin-right:20px;
+    width:50px;
+}
+
+section .date-month{ 
+    color:#ffffff;
+    font-size:11px;
+    padding-top:10px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+section .post{
+    float:left;
+}
+
+ section .more-info{
+    color:#656464;
+    font-size:13px;
+    padding-left:70px;
+    width:90%;
+}
+
+section button {
+    background:url(/Images/button-background.png);
+    border-radius:15px;
+    border:none;
+    border:1px solid #E7E7E7;
+    color:#656464;
+    font-size:13px;
+    float:right;
+    margin-right:60px;
+    margin-top:15px;
+    padding:5px 15px 5px 10px; 
+}
+
+section article{
+    margin-bottom:20px;
+    padding-left:15px;
+}
+
+aside article{
+    padding-top:40px;
+}
+
+aside h2{
+    color:#1F262D;
+    font-weight:normal;
+    padding-bottom:10px;    
+}
+
+aside .aside-navigation ul li{
+    list-style:none;
+}
+
+aside .aside-navigation ul li a{
+    color:#656464;
+    font-size:13px;
+    line-height:25px;
+    text-decoration:none;
+}
+
+aside .aside-navigation ul li a:before{
+    content:url(/Images/aside-navigation.png);
+    padding-right:10px;
+}
+
+section #page{
+    float:right;
+    margin-top:50px;
+    margin-right:60px;
+    padding-bottom:20px;
+}
+
+section #page a{
+    background:#EBEBEB;
+    border-radius:20px;
+    color:#979898;
+    padding:5px 10px 5px 10px; 
+    text-decoration:none;
+}
+
+section #page a:hover{
+    background:#549EB9;
+    color:#ffffff;
+}
+
+#about-us{
+    background:#FCFCFC;
+    border-top:5px solid #F7F7F7;
+    border-bottom:1px solid #E0E0E0;
+}
+
+#about-us article{
+    border-right:1px dotted #DCDCDC;
+    color:#656464;
+    display:inline-block;
+    width:30%;
+}
+
+#about-us article p{
+    width:85%;
+}
+
+h3{
+    font-weight:normal;
+}
+
+#about-us article:last-of-type{
+    border-right:none;
+}
+
+
+@media only screen and (max-width:960px) {
+    body #wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+  @media only screen and (max-width:850px) {
+        main section {
+            width: 70%;
+        }
+
+        main aside {
+            float: left;
+            padding-left:30px;
+            width: 28%;
+        }
+
+        #menu {
+            background-position: right bottom;
+            width:75%;      
+        }
+
+        #contact{
+           text-align:right;
+           width:25%
+        }
+
+        section .date-month {
+            margin-right: 15px;
+        }
+
+        aside .aside-navigation ul li {
+            overflow: hidden;
+            height: 20px;
+            width: 150px;
+        }
+
+        main aside article:last-of-type {
+            display: none;
+        }
+
+        main section img {
+            width: 85%;
+        }
+
+        p.more-info {
+            width: 85%;
+        }
+
+        span.hidden {
+            display: none !important;
+        }
+
+        section#about-us article {
+            height: 200px;
+            overflow: hidden;
+            width: 190px;
+        }
+
+        section#about-us article {
+            width: 30%;
+        }
+
+        section article .figure {
+            width: 80%;
+        }
+
+        section article .figure img {
+           width: 95%;
+        }
+
+        section article .more-info {
+            height:60px;
+            overflow:hidden;
+            width:95%;
+        }
+    }
+
+@media only screen and (max-width: 500px) {
+    header{
+        border-bottom:0;
+    }
+
+    #logo {
+        display: block;
+        margin-left: 80px;
+        margin-bottom: 20px;
+      }
+
+    header input {
+        height: 40px;
+        width: 100%;
+        margin-bottom:20px;
+        margin-right:0;
+      }
+
+    header #logo {
+        display: block;
+    }
+
+    #menu{
+        width:100%;
+        background-position: 50% 0%;
+    }
+
+     #menu ul li:first-of-type {
+        background: none;
+        height: 25px;
+        margin: 0;
+    }
+
+    #menu ul li {
+        float: none;
+        height: 25px;
+        margin: 0;
+        padding-bottom: 10px;
+        padding-top: 0;
+        text-align: center;
+    }
+
+     #menu ul li:first-of-type:hover {
+        padding-top: 3px;
+    }
+
+     #menu ul li:hover {
+        background: url(/Images/hover-navigation.png)no-repeat top;
+        padding-top: 3px;
+    }
+
+    #menu ul li a {
+        border-left: 1px dotted #549EB9;
+        border-right: 1px dotted #549EB9;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        width: 300px;
+    }
+
+   #contact{
+       width:100%;
+       text-align:center;
+       padding-left:20px;
+   }
+
+    aside {
+        display: none;
+    }
+
+    #wrapper main section {
+        border-right: none;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    section article .figure {
+        margin-left: 60px;
+        width: 70%;
+    }
+
+    main section img {
+        width: 100%;
+    }
+
+    section#about-us article {
+        height: 150px; 
+        width: 95%;
+    }
+
+    #page {
+        padding-bottom: 40px;
+    }
+
+    .hidden-small {
+        display: none !important;
+    }
+
+    section article .more-info {
+        height: 60px;
+        overflow: hidden;
+        width: 85%;
+    }
+}
